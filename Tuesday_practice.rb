@@ -57,9 +57,9 @@ class Vehicle
   end
 
   def blinker_switch(b)
-    if b=="on"
+    if b=="left"
       @blinkers=true
-    elsif b=="off"
+    elsif b=="right"
       @blinkers=false
     end
   end
